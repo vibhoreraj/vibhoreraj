@@ -1,0 +1,23 @@
+import numpy as np
+
+# Define a square matrix
+a = np.array([[4, -2],[1, 1]])
+
+# Calculate eigenvalues and eigenvectors
+eigenvalues, eigenvectors = np.linalg.eig(a)
+
+# Display the results
+print("Eigenvalues:")
+print(eigenvalues)
+
+print("\nEigenvectors:")
+print(eigenvectors)
+
+#output of this code
+
+Eigenvalues:
+[3. 2.]
+
+Eigenvectors:
+[[0.89442719 0.70710678]
+ [0.4472136  0.70710678]]
